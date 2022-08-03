@@ -1,0 +1,74 @@
+::-webkit-scrollbar{
+    display: none;
+ }
+ html{
+    font-size: 92.5%;
+    overflow-x: hidden;
+ }
+ .btn{
+    margin-top:30px;
+    padding:10px;
+    width: 40%;
+    cursor: pointer;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: capitalize;
+ }
+ .btn:hover{
+    background-color: #333;
+ }
+ .btn{
+    background-color: blue;
+ }
+ .form-container{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:60px;
+    margin: 150px;
+ }
+ .form-container form{
+    padding:20px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+ }
+ .form-container form h3{
+    font-size: 30px;
+    margin: 5px;
+    text-transform: uppercase;
+    color: rgb(14, 7, 7);
+ }
+ .form-container form .box{
+    width: 80%;
+    background-color: rgb(245, 242, 244);
+    padding:12px 1.4rem;
+    font-size: 18px;
+    color: blue;
+    border:2px solid blue;
+    margin:5px;
+    border-radius: 10px;
+ }
+ .form-container form p{
+    padding-top: 10px;
+    font-size: 20px;
+    color:black;
+ }
+ .form-container form p a{
+    color:red;
+ }
+ .form-container form p a:hover{
+    text-decoration: underline;
+    color:rgb(4, 0, 255);
+ }
+ body{
+   background-image: url(images/book-bg.jpg);
+    background-size: cover;
+ }
+ 
+
+ 
+ 

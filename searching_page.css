@@ -1,0 +1,84 @@
+.heading h3{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7))url(images/bgm.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 12px;
+    padding: 20px;
+ }
+.products .box-container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    align-items: flex-start;
+    gap:1.5rem;
+    justify-content: center;
+ }
+ 
+ .products .box-container .box{
+    border-radius: .5rem;
+    background-color: white;
+    padding:2rem;
+    text-align: center;
+    border:1px solid black;
+    position: relative;
+ }
+ 
+ .products .box-container .box .image{
+    height: 30rem;
+ }
+ 
+ .products .box-container .box .name{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:black;
+ }
+ 
+ .products .box-container .box .qty{
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    border-radius: .5rem;
+    border:1px solid black;
+    margin:1rem 0;
+    font-size: 2rem;
+ }
+ 
+ .products .box-container .box .price{
+    position: absolute;
+    top:1rem; left:1rem;
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 2.5rem;
+    color:white;
+    background-color: orange;
+ }
+.search-form form{
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    gap:1rem;
+ }
+ 
+ 
+ .search-form form .btn{
+    margin-top: 0;
+    background-color: blue;
+    color: white;
+ }
+ 
+ .search-form form .box{
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    border:1px solid firebrick;
+    font-size: 2rem;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+ }
+ .btn{
+    background-color: green;
+    color: white;
+ }
